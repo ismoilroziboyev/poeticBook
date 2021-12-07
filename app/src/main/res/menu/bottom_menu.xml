@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_selected"
+            android:title="Uy" />
+
+        <item
+            android:id="@+id/chapters"
+            android:icon="@drawable/ic_menu_unselected"
+            android:title="Bo'limlar" />
+
+        <item
+            android:id="@+id/liked"
+            android:icon="@drawable/ic_like_unselected"
+            android:title="Sevimlilar" />
+
+    </group>
+</menu>
